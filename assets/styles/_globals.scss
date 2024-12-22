@@ -1,0 +1,7 @@
+@use 'helpers' as *;
+
+body {
+	@include fluid-text(16, 14);
+
+	font-family: var(--font-family-base);
+}
