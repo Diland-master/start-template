@@ -1,0 +1,9 @@
+@use 'helpers' as *;
+
+@include font('Inter', normal, 400, '../fonts/Inter-Regular.woff2');
+@include font('Inter', italic, 400, '../fonts/Inter-Italic.woff2');
+@include font('Inter', normal, 500, '../fonts/Inter-Medium.woff2');
+@include font('Inter', italic, 500, '../fonts/Inter-MediumItalic.woff2');
+@include font('Inter', normal, 600, '../fonts/Inter-SemiBold.woff2');
+@include font('Inter', italic, 600, '../fonts/Inter-SemiBoldItalic.woff2');
+@include font('Oswald', normal, 500, '../fonts/Oswald-Medium.woff2');
