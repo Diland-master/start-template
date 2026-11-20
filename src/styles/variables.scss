@@ -1,0 +1,45 @@
+:root {
+	/**
+	 * 1. Палитра — имена как в дизайне (переменные Figma).
+	 * Формат: --color-<оттенок>-<светлота>, например --color-red-45, --color-gray-60.
+	 */
+	--color-white: #ffffff;
+	--color-black: #000000;
+
+	/**
+	 * 2. Роли — алиасы на палитру. Используются в globals.scss.
+	 */
+	--color-bg: var(--color-white);
+	--color-text: var(--color-black);
+	--color-heading: var(--color-black);
+	--color-accent: var(--color-black);
+	--color-border: var(--color-black);
+
+	--border: var(--border-width-s) solid var(--color-border);
+
+	--border-width-xl: 6px;
+	--border-width-l: 4px;
+	--border-width-m: 3px;
+	--border-width-s: 1px;
+
+	--border-radius-l: 12px;
+	--border-radius-m: 10px;
+	--border-radius-s: 8px;
+	--border-radius-xs: 6px;
+	--border-radius-xxs: 5px;
+	--border-radius-xxxs: 4px;
+
+	--font-family-base: system-ui, sans-serif;
+
+	--container-width: #{fluid-to-laptop(
+		$container-desktop-width,
+		$container-laptop-width
+	)};
+	--container-padding-x: 16px;
+
+	--section-padding-y: #{fluid(75, 40)};
+	--field-padding-x: #{fluid-to-laptop(20, 16)};
+
+	--transition-duration: 0.2s;
+	--transition-duration-longer: 0.4s;
+}

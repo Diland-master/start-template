@@ -1,0 +1,12 @@
+/**
+ * Шрифты проекта. Файлы .woff2 кладутся в src/assets/fonts.
+ * На каждое начертание — отдельный @font-face. Пример:
+ *
+ * @font-face {
+ * 	font-family: 'Manrope';
+ * 	src: url('@/assets/fonts/Manrope-Regular.woff2') format('woff2');
+ * 	font-weight: 400;
+ * 	font-style: normal;
+ * 	font-display: swap;
+ * }
+ */
